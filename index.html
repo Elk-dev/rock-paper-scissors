@@ -8,8 +8,23 @@
 <body>
     <script>
         // Your JavaScript goes here!
-        console.log("Hello, World!")
-        console.log(23 + 97);
+            function add7(x){
+                var x = parseInt(prompt("Enter a numeric value here"), 10);
+                return x+7;
+            }
+            function multiply(){
+                let x = parseInt(prompt("Enter a numeric value here"), 10);
+                let y = parseInt(prompt("Enter a numeric value here"),10);
+                return x*y;
+            }
+            function capitalize(){
+                let string = prompt("Enter a word in here");
+                return string.charAt(0).toUpperCase() + string.slice(1);
+            }
+            function lastLetter(){
+                let string="abcd";
+                return string.slice(3);
+            }
     </script>
 </body>
 
