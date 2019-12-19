@@ -9,6 +9,18 @@
     <script>
         function computerplay(){
             let random = Math.floor(Math.random()*3);
+            console.log(random);
+            if (random == 0){
+                move = "Rock";
+            }
+            else if(random==1){
+                move= "Paper";
+            }
+            else{
+                move = "Scissors";
+            }
+            console.log(move)
+            return move;
         }
     </script>
 </body>
